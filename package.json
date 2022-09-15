@@ -1,6 +1,6 @@
 {
   "name": "@ganeshnrao/reelgood-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Watch your favorite shows and movies from the command-line!",
   "main": "src/index.js",
   "scripts": {
