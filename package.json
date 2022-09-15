@@ -1,12 +1,38 @@
 {
-  "name": "reelgood",
+  "name": "reelgood-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Watch your favorite shows and movies from the command-line!",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "debug": "debug=true node src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "movies",
+    "shows",
+    "tv",
+    "cli",
+    "watch",
+    "command line",
+    "reelgood",
+    "reel good"
+  ],
+  "author": "ganeshnrao@me.com",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "axios": "^0.27.2",
+    "data-store": "^4.0.3",
+    "dotenv": "^16.0.2",
+    "enquirer": "^2.3.6",
+    "lodash": "^4.17.21",
+    "open": "^8.4.0"
+  }
 }
