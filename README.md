@@ -5,7 +5,7 @@ A CLI tool to launch television shows and movies from the command-line using [Re
 ## Installation
 Make sure you have NodeJS and NPM installed. Then you can run the following command.
 ```
-$ npm -g install reelgood-cli
+$ npm -g install @ganeshnrao/reelgood-cli
 ```
 
 Then you can launch it as follows.
