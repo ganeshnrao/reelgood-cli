@@ -7,6 +7,9 @@
     "start": "node src/index.js",
     "debug": "debug=true node src/index.js"
   },
+  "bin": {
+    "reelgood": "./src/index.js"
+  },
   "keywords": [
     "movies",
     "shows",
