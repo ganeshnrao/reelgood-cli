@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { prompt } = require('enquirer')
 const open = require('open')
 const meta = require('./meta')
